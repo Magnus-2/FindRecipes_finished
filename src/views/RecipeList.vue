@@ -29,8 +29,9 @@
         <div class="col-md-10 col-lg-8 m-auto">
             <h3 class="title mb-4">Recipes</h3>
         </div>
-        <button class="btn btn-success" href="findrecipes" style="font-size: larger; border-style: solid; border-color: rgb(0, 64, 102);  background-color: rgb(0, 64, 102);">Search Recipes</button>
-    
+      <br/>
+        <button class="btn btn-success" style="font-size: larger; border-style: solid; border-color: rgb(0, 64, 102);  background-color: rgb(0, 64, 102);"><a href="findrecipes">Search Recipes</a></button>
+        <br/><br/>
      <!-- row with some recipe  -->
      <div class="row mb-5">
     <div class="col-md-6" v-for="(recipe, key) in recipes" :key='key'>

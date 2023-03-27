@@ -7,6 +7,7 @@ import SignUp from '@/views/SignUp.vue'
 import Profile from '@/views/Profile.vue'
 import FindRecipes from '@/views/FindRecipe.vue'
 import Home from '@/views/HomeView.vue'
+import AddRecipes from '@/views/AddRecipes.vue'
 
 import {getAuth, onAuthStateChanged} from 'firebase/auth'
 
@@ -57,6 +58,11 @@ const router = createRouter({
       path: '/home',
       name: 'Home',
       component: Home
+    },
+    {
+      path: '/addrecipes',
+      name: 'AddRecipes',
+      component: AddRecipes
     },
     {
       path: '/profile',
